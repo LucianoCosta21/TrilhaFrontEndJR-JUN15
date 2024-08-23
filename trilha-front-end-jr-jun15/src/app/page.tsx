@@ -4,17 +4,17 @@ import fotoPerfil from '../../public/assets/fotoPerfil.png';
 export default function Home() {
   return (
     <>
-      <header className="p-5 flex gap-3 justify-between">
-        <p>Luciano Oliveira</p>
+      <header className="py-4 px-24 flex justify-between items-center bg-[#e53939]">
+        <p className="text-lg">Luciano Oliveira da Costa</p>
         <nav>
-          <ul className="flex gap-3">
-            <li>
+          <ul className="flex gap-12">
+            <li className="text-lg py-2 px-5 bg-[#000] border-2 cursor-pointer rounded-xl hover:bg-[#fff] hover:border-2 hover:border-[#000] hover:text-[#000]">
               <a href="#about-container">Sobre Mim</a>
             </li>
-            <li>
+            <li className="text-lg py-2 px-5 bg-[#000] border-2 cursor-pointer rounded-xl hover:bg-[#fff] hover:border-2 hover:border-[#000] hover:text-[#000]">
               <a href="#skills-container">Skills</a>
             </li>
-            <li>
+            <li className="text-lg py-2 px-5 bg-[#000] border-2 cursor-pointer rounded-xl hover:bg-[#fff] hover:border-2 hover:border-[#000] hover:text-[#000]">
               <a href="#experience-container">Projetos</a>
             </li>
           </ul>
